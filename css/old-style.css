@@ -1,0 +1,7 @@
+.container, .container-fluid{
+  background: blue;
+}
+
+#profile-pic {
+  width: 250px;
+}

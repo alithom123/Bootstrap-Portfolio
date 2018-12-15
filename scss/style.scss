@@ -1,0 +1,93 @@
+$heading-font-stack: 'Georgia', Times, 'Times New Roman', serif;
+$nav-title-font-size: 2em;
+// $other-font-stack: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+// For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
+// For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.
+
+$teal-color: #4aaaa5;
+$regular-font-color: #777777;
+$main-header-background-color: #ffffff;
+$main-header-border-color: #cccccc;
+$footer-background-color: #666666;
+$main-content-background-color: #ffffff;
+$white-color: #ffffff;
+$main-content-border-color: #dddddd;
+$border-width: 2px;
+
+$twenty-twenty-padding: 20px 20px;
+
+// body {
+//   font: 100% $font-stack;
+//   color: $primary-color;
+// }
+
+.navbar {
+    background-color: $main-header-background-color;
+    border-style: solid;
+    border-color: $main-header-border-color;
+    border-bottom-width: 2px;
+}
+
+.navbar-brand {
+    color: $main-header-background-color !important;
+    font-family: $heading-font-stack;
+    font-size: $nav-title-font-size;
+}
+
+#profile-pic {
+    width: 200px;
+    float: left;
+}
+
+.background-teal {
+    background-color: $teal-color;
+}
+
+.twenty-padding-all {
+    padding: 20px 20px;
+}
+
+#main-area {
+    background-image: url('../images/bg.png');
+    padding: 50px 20px;
+}
+
+.main-content-area {
+    margin: $twenty-twenty-padding;
+    padding: $twenty-twenty-padding;
+    background-color: $main-content-background-color;
+}
+
+.main-content-area h1,h2,h3 {
+    // margin: $twenty-twenty-padding;
+    color: $teal-color;
+}
+
+.main-content-area img {
+    margin: 0px 20px 20px 0px;
+}
+
+// .main-content-area p {
+//     padding: $twenty-twenty-padding;
+// }
+
+.content-heading {
+    border-style: solid;
+    border-bottom-width: $border-width;
+    border-color: $main-content-border-color;
+}
+
+.content {
+    margin: $twenty-twenty-padding;
+    padding: $twenty-twenty-padding;
+}
+
+.footer-content {
+    text-align: center;
+    background-color: $footer-background-color;
+    border-style: solid;
+    border-top-width: $border-width;
+    border-color: $teal-color;
+    border-bottom-style: none;
+    color: $white-color;
+}

@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		"// $heading-font-stack: 'Georgia', Times, 'Times New Roman', serif;\n// $other-font-stack: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;\n// For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.\n// For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.\n\n$teal-color: #4aaaa5;\n$regular-font-color: #777777;\n$main-header-background-color: #ffffff;\n$main-header-border-color: #cccccc;\n$footer-background-color: #666666;\n$main-content-background-color: #ffffff;\n$main-content-border-color: #dddddd;\n\n// body {\n//   font: 100% $font-stack;\n//   color: $primary-color;\n// }\n"
+	],
+	"mappings": "",
+	"names": []
+}

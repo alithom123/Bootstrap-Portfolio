@@ -1,0 +1,67 @@
+.navbar {
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #cccccc;
+  border-bottom-width: 2px;
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-size: 2em;
+}
+
+#profile-pic {
+  width: 200px;
+  float: left;
+}
+
+.background-teal {
+  background-color: #4aaaa5;
+}
+
+.twenty-padding-all {
+  padding: 20px 20px;
+}
+
+#main-area {
+  background-image: url("../images/bg.png");
+  padding: 50px 20px;
+}
+
+.main-content-area {
+  margin: 20px 20px;
+  padding: 20px 20px;
+  background-color: #ffffff;
+}
+
+.main-content-area h1, h2, h3 {
+  color: #4aaaa5;
+}
+
+.main-content-area img {
+  margin: 0px 20px 20px 0px;
+}
+
+.content-heading {
+  border-style: solid;
+  border-bottom-width: 2px;
+  border-color: #dddddd;
+}
+
+.content {
+  margin: 20px 20px;
+  padding: 20px 20px;
+}
+
+.footer-content {
+  text-align: center;
+  background-color: #666666;
+  border-style: solid;
+  border-top-width: 2px;
+  border-color: #4aaaa5;
+  border-bottom-style: none;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=style.css.map */

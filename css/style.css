@@ -64,4 +64,12 @@
   color: #ffffff;
 }
 
+.btn-primary {
+  background-color: #4aaaa5 !important;
+  border-color: #4aaaa5 !important;
+}
+
+form {
+    margin: 20px 0px;
+}
 /*# sourceMappingURL=style.css.map */
